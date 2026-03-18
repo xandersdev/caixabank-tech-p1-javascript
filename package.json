@@ -1,5 +1,6 @@
 {
   "name": "json-to-html",
+  "description": "Proyecto con API de Rick y Morty",
   "module": "main.js",
   "type": "module"
 }
