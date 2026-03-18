@@ -34,7 +34,7 @@ export const loadCharacters = async (n = 50) => {
             ));
 
             // Agregamos los nuevos elementos al array ya existente
-            personajes = personajes.push(...nuevos);
+            personajes.push(...nuevos);
             pagina++;
         }
 
