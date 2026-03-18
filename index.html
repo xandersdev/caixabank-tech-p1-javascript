@@ -1,22 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Mi primera página con API</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-50 text-center min-h-screen">
+    <h1 class="text-3xl font-bold my-8">Prueba de botones y API</h1>
 
-    <h1>Prueba de botones y API</h1>
-    
-    <button class="boton-primario" onclick="mostrarAlerta1()">Botón Principal</button>
-    <button class="boton-outline" onclick="mostrarAlerta2()">Botón Secundario</button>
-    
-    <hr> <h2>Personajes de Rick y Morty</h2>
-    <button class="boton-api" onclick="traerPersonajes()">¡Traer 3 personajes!</button>
+    <button
+      class="bg-blue-600 text-white px-4 py-2 rounded m-2 hover:bg-blue-700"
+      onclick="mostrarAlerta1()"
+    >
+      Botón Principal
+    </button>
+    <button
+      class="bg-white text-blue-600 border-2 border-blue-600 px-4 py-2 rounded m-2 hover:bg-blue-50"
+      onclick="mostrarAlerta2()"
+    >
+      Botón Secundario
+    </button>
 
-    <div id="caja-resultados"></div>
+    <hr class="my-6">
+    <h2 class="text-2xl font-semibold mb-4">Personajes de Rick y Morty</h2>
+    <button class="bg-green-600 text-white px-4 py-2 rounded mb-6 hover:bg-green-700" onclick="traerPersonajes()">¡Traer 50 personajes!</button>
+
+    <div id="caja-resultados" class="flex flex-wrap justify-center gap-6"></div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
