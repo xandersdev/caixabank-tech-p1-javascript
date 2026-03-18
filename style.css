@@ -4,7 +4,6 @@ body {
     margin-top: 50px;
 }
 
-/* Botón estilo "Primary" (Relleno) */
 .boton-primario {
     background-color: #007BFF;
     color: white;
@@ -16,7 +15,6 @@ body {
     margin: 10px;
 }
 
-/* Botón estilo "Outline" (Borde) */
 .boton-outline {
     background-color: white;
     color: #007BFF;
@@ -26,4 +24,40 @@ body {
     border-radius: 5px;
     cursor: pointer;
     margin: 10px;
+}
+
+/* Nuevo botón para la API */
+.boton-api {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la caja que contendrá los resultados */
+#caja-resultados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+/* Estilo para cada personaje */
+.tarjeta-personaje {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    background-color: #f9f9f9;
+}
+
+.tarjeta-personaje img {
+    border-radius: 50%; /* Hace la foto redonda */
+    width: 100px;
 }

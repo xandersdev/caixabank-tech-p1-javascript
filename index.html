@@ -2,15 +2,20 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Mi primera página</title>
+    <title>Mi primera página con API</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Prueba de botones</h1>
+    <h1>Prueba de botones y API</h1>
     
     <button class="boton-primario" onclick="mostrarAlerta1()">Botón Principal</button>
     <button class="boton-outline" onclick="mostrarAlerta2()">Botón Secundario</button>
+    
+    <hr> <h2>Personajes de Rick y Morty</h2>
+    <button class="boton-api" onclick="traerPersonajes()">¡Traer 3 personajes!</button>
+
+    <div id="caja-resultados"></div>
 
     <script src="script.js"></script>
 </body>
