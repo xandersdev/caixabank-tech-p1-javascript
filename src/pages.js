@@ -11,7 +11,7 @@ export const renderIndex = (personajes) => {
 </head>
 <body class="bg-gradient-to-br from-gray-100 to-gray-50 min-h-screen">
 
-<h1 class="text-4xl font-extrabold text-center my-10 text-gray-800 drop-shadow-lg">Personajes</h1>
+<h1 class="text-4xl font-extrabold text-center my-10 text-gray-800 drop-shadow-lg">Personajes de Rick & Morty</h1>
 
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 p-6">
 `;
